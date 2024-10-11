@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 
 @Aspect
 @Component
-public class CustomProcessor {    
+public class CustomProcessor {
 
     private static final Logger logger = LoggerFactory.getLogger(CustomProcessor.class);
 
