@@ -18,7 +18,7 @@ public class CustomProcessor {
     @Around("@annotation(com.example.Custom.Annotation.Annotations.Check)")
     public Object processAnnotation() throws Throwable {
 
-        System.out.println("Hyeeeeeeeeeee ma sadqy jaoun its running...........broooooooooooooooo");
+        System.out.println("custom processor is running............................");
         return new Object();
     }
 }
