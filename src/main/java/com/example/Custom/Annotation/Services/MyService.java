@@ -7,12 +7,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class MyService {
 
-    @Check
+    @Check(value = "hello this is my value")
     public void serve() throws InterruptedException {
-        Thread.sleep(2000);
-        Thread.sleep(2000);
-        Thread.sleep(2000);
-        Thread.sleep(2000);
         System.out.println("Service executed");
     }
 }
