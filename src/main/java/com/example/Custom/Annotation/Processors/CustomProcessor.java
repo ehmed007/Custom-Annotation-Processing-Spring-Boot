@@ -22,8 +22,6 @@ public class CustomProcessor {
     private static final Logger logger = LoggerFactory.getLogger(CustomProcessor.class);
 
 
-//    @Before("@annotation(com.example.Custom.Annotation.Annotations.Check)")
-//    @Before("execution(com.example.Custom.Annotation.Services.MyService.serve(..))")
     @Around("@annotation(com.example.Custom.Annotation.Annotations.Check)")
     public Object processAnnotation(ProceedingJoinPoint joinPoint) throws Throwable {
 
