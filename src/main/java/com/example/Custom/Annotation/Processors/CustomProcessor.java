@@ -4,6 +4,7 @@ import com.example.Custom.Annotation.Annotations.Check;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -21,6 +22,8 @@ public class CustomProcessor {
     private static final Logger logger = LoggerFactory.getLogger(CustomProcessor.class);
 
 
+//    @Before("@annotation(com.example.Custom.Annotation.Annotations.Check)")
+//    @Before("execution(com.example.Custom.Annotation.Services.MyService.serve(..))")
     @Around("@annotation(com.example.Custom.Annotation.Annotations.Check)")
     public Object processAnnotation(ProceedingJoinPoint joinPoint) throws Throwable {
 
@@ -36,6 +39,7 @@ public class CustomProcessor {
 
 
         System.out.println("custom processor is running............................");
-        return new Object();
+
+        return joinPoint.proceed();
     }
 }
