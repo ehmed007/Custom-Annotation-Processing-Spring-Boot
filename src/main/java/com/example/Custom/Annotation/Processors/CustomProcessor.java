@@ -37,6 +37,7 @@ public class CustomProcessor {
 
 
         System.out.println("custom processor is running............................");
+        logger.info("custom processor is running............................");
 
         return joinPoint.proceed();
     }
