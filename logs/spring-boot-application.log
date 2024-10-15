@@ -1,0 +1,66 @@
+2024-10-15T13:00:40.887+05:00  INFO 16572 --- [Custom-Annotation] [main] c.e.C.A.CustomAnnotationApplication      : Starting CustomAnnotationApplication using Java 21.0.4 with PID 16572 (D:\Learn Git\Custom-Annotations\target\classes started by Ahmad Rasheed in D:\Learn Git\Custom-Annotations)
+2024-10-15T13:00:40.887+05:00  INFO 16572 --- [Custom-Annotation] [main] c.e.C.A.CustomAnnotationApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-10-15T13:00:41.893+05:00  INFO 16572 --- [Custom-Annotation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-10-15T13:00:41.909+05:00  INFO 16572 --- [Custom-Annotation] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-15T13:00:41.909+05:00  INFO 16572 --- [Custom-Annotation] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-15T13:00:41.956+05:00  INFO 16572 --- [Custom-Annotation] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-15T13:00:41.956+05:00  INFO 16572 --- [Custom-Annotation] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1017 ms
+2024-10-15T13:00:42.364+05:00  INFO 16572 --- [Custom-Annotation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-10-15T13:00:42.364+05:00  INFO 16572 --- [Custom-Annotation] [main] c.e.C.A.CustomAnnotationApplication      : Started CustomAnnotationApplication in 1.957 seconds (process running for 2.358)
+2024-10-15T13:01:44.390+05:00  INFO 3184 --- [Custom-Annotation] [main] c.e.C.A.CustomAnnotationApplication      : Starting CustomAnnotationApplication using Java 21.0.4 with PID 3184 (D:\Learn Git\Custom-Annotations\target\classes started by Ahmad Rasheed in D:\Learn Git\Custom-Annotations)
+2024-10-15T13:01:44.406+05:00  INFO 3184 --- [Custom-Annotation] [main] c.e.C.A.CustomAnnotationApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-10-15T13:01:46.493+05:00  INFO 3184 --- [Custom-Annotation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-10-15T13:01:46.508+05:00  INFO 3184 --- [Custom-Annotation] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-15T13:01:46.508+05:00  INFO 3184 --- [Custom-Annotation] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-15T13:01:46.587+05:00  INFO 3184 --- [Custom-Annotation] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-15T13:01:46.587+05:00  INFO 3184 --- [Custom-Annotation] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2063 ms
+2024-10-15T13:01:47.261+05:00  INFO 3184 --- [Custom-Annotation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-10-15T13:01:47.261+05:00  INFO 3184 --- [Custom-Annotation] [main] c.e.C.A.CustomAnnotationApplication      : Started CustomAnnotationApplication in 3.843 seconds (process running for 4.352)
+2024-10-15T13:01:47.277+05:00  INFO 3184 --- [Custom-Annotation] [main] c.e.C.A.Processors.CustomProcessor       : custom processor is running............................
+2024-10-15T13:06:15.996+05:00 ERROR 2176 --- [Custom-Annotation] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.root' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.root
+    Value: "[INFO, WARN]"
+    Origin: class path resource [application.properties] - 8:20
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.[INFO, WARN])
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2024-10-15T13:07:15.551+05:00  INFO 14968 --- [Custom-Annotation] [main] c.e.C.A.CustomAnnotationApplication      : Starting CustomAnnotationApplication using Java 21.0.4 with PID 14968 (D:\Learn Git\Custom-Annotations\target\classes started by Ahmad Rasheed in D:\Learn Git\Custom-Annotations)
+2024-10-15T13:07:15.551+05:00  INFO 14968 --- [Custom-Annotation] [main] c.e.C.A.CustomAnnotationApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-10-15T13:07:16.487+05:00  INFO 14968 --- [Custom-Annotation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-10-15T13:07:16.503+05:00  INFO 14968 --- [Custom-Annotation] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-15T13:07:16.503+05:00  INFO 14968 --- [Custom-Annotation] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-15T13:07:16.550+05:00  INFO 14968 --- [Custom-Annotation] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-15T13:07:16.550+05:00  INFO 14968 --- [Custom-Annotation] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 958 ms
+2024-10-15T13:07:17.037+05:00  INFO 14968 --- [Custom-Annotation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-10-15T13:07:17.037+05:00  INFO 14968 --- [Custom-Annotation] [main] c.e.C.A.CustomAnnotationApplication      : Started CustomAnnotationApplication in 1.905 seconds (process running for 2.32)
+2024-10-15T13:07:17.053+05:00  INFO 14968 --- [Custom-Annotation] [main] c.e.C.A.Processors.CustomProcessor       : custom processor is running............................
+2024-10-15T13:07:41.375+05:00  INFO 17452 --- [Custom-Annotation] [main] c.e.C.A.CustomAnnotationApplication      : Starting CustomAnnotationApplication using Java 21.0.4 with PID 17452 (D:\Learn Git\Custom-Annotations\target\classes started by Ahmad Rasheed in D:\Learn Git\Custom-Annotations)
+2024-10-15T13:07:41.381+05:00  INFO 17452 --- [Custom-Annotation] [main] c.e.C.A.CustomAnnotationApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-10-15T13:07:42.829+05:00  INFO 17452 --- [Custom-Annotation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-10-15T13:07:42.844+05:00  INFO 17452 --- [Custom-Annotation] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-15T13:07:42.844+05:00  INFO 17452 --- [Custom-Annotation] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-15T13:07:42.938+05:00  INFO 17452 --- [Custom-Annotation] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-15T13:07:42.938+05:00  INFO 17452 --- [Custom-Annotation] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1514 ms
+2024-10-15T13:07:43.694+05:00  INFO 17452 --- [Custom-Annotation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-10-15T13:07:43.700+05:00  INFO 17452 --- [Custom-Annotation] [main] c.e.C.A.CustomAnnotationApplication      : Started CustomAnnotationApplication in 2.81 seconds (process running for 3.176)
+2024-10-15T13:07:43.716+05:00  INFO 17452 --- [Custom-Annotation] [main] c.e.C.A.Processors.CustomProcessor       : custom processor is running............................
